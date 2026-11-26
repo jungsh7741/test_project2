@@ -1,0 +1,56 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# Dependencies and virtual environments
+node_modules/
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+
+# Build output and generated files
+dist/
+build/
+out/
+.next/
+.nuxt/
+.output/
+coverage/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.tsbuildinfo
+
+# Logs and runtime files
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+*.pid
+*.seed
+
+# Local databases and uploaded/generated data
+*.sqlite
+*.sqlite3
+*.db
+uploads/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# Deployment/platform local state
+.vercel/
+.netlify/
+
+# Jupyter and packaging artifacts
+.ipynb_checkpoints/
+*.spec
